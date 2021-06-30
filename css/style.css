@@ -76,5 +76,28 @@ header {
     height: 450px;
     background-position: center;
     background-size: cover;
+    position: relative;
+}
+.hero section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 40%;
+}
+.titolo-hero {
+    display: inline-block;
+    color: white;
+    font-size: 40px;  
+    font-weight: 700;
+    padding: 40px;
+    
+}
+.par-hero {
+    color: white;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: bold;
     
 }
