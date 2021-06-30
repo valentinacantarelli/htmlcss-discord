@@ -4,3 +4,49 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*comuni*/
+.container {
+    max-width: 80%;
+    margin: auto;
+}
+*/clearfix*/
+.clearfix::after {
+    content: ('');
+    display: table;
+    clear: both;
+}
+/*typo*/
+body{
+    font-family: 'Lato', sans-serif;
+}
+/*header*/
+header {
+    background-color: #3161e0;
+    height: 50px;
+    
+}
+/*sezione menu*/
+.container section{
+    background-color: pink;    
+} 
+.col-left, .col-center, .col-right{
+    float: left;    
+}
+.col-right, .col-left {
+    width: 20%;
+}
+.col-center {
+    width: calc(60%- 80px);
+    margin: 40px; 
+}
+.col-center li  {
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+}
+.col-center li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+
+}
