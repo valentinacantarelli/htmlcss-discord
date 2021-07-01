@@ -1,12 +1,14 @@
 /*reset*/
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 /*comuni*/
+
 .container {
-    max-width: 80%;
+    max-width: 75%;
     margin: auto;
 }
 .button {
@@ -18,24 +20,29 @@
     background-color: white;
 }
 /*clearfix*/
+
 .clearfix::after {
     content: ('');
     display: table;
     clear: both;
 }
 /*typo*/
+
 body{
     font-family: 'Archivo', sans-serif;
 }
 
 /*header*/
+
 header {
     background-color: #3161e0;
     height: 60px;       
 }
 /*sezione menu*/
+
 .logo {   
-    padding: 15px;   
+    padding: 15px;
+      
 }
 .logo, .menu, .accedi {
     text-align: center;    
@@ -44,6 +51,7 @@ header {
     padding: 15px;
 }
 /*float*/
+
 .col-left, .col-center, .col-right{
     float: left;        
 }
@@ -53,7 +61,6 @@ header {
 .col-center {
     width: 60%; 
 }
-
 .col-center li  {
     display: inline-block;   
 }
@@ -67,6 +74,7 @@ header {
     padding: 0 12px;
 }
 /*hero*/
+
 .hero {
     background-image: url('../img/jumbo.png');
     height: 380px;
@@ -114,28 +122,39 @@ header {
 .sezioni {
     position: relative;
     height: 100vh;
-    
+      
 }
 .prima-sezione {
    /* background-color: coral;  */       
 }
 
 .prima-immagine, .sezione-testo{
-    float: left;
     width: 50%;
     padding: 50px;
-    margin-top: 30px; 
+    margin-top: 100px; 
       
 }
 .prima-immagine {
     background-image: url('../img/item1.svg');
     height: 100%;
-    background-repeat: no-repeat;    
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    float: left; 
+    
 }
 .sezione-testo {
-    padding: 5%;
+    width: 32%;
+    float: right;
+    text-align: left;
+    color: #23272a;
+    
 }
 .primo-titolo {
-    text-align: center;
-    font-size: 30px;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+.primo-paragrafo{
+    font-size: 14px;
+    line-height: 22px;
+
 }
